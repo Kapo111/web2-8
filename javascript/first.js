@@ -93,59 +93,6 @@ var timeId = setInterval(function() {
 
 // 二级列表中的任务和美食，划上出现图片
 var listImgArr = ["zhalaohu.jpg", "yangchangzi.jpg", "huoguoji.jpg", "lvrouhuoshao.jpg", "qiezibing.jpg", "laodoufu.jpg", "yali.jpg", "bianque.jpg", "mazhiyuan.jpg", "jiyun.jpg", "zhangzhidong.jpg", "fengguozhang.jpg"];
-// for (var i = 0; i < content.length; i ++) {
-//     content[i].onmouseout = function() {
-//         listContent.style.display = "none";
-//     }
-// }
-// content[0].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[0]);
-// }
-// content[1].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[1]);
-// }
-// content[2].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[2]);
-// }
-// content[3].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[3]);
-// }
-// content[4].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[4]);
-// }
-// content[5].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[5]);
-// }
-// content[6].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[6]);
-// }
-// content[7].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[7]);
-// }
-// content[8].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[8]);
-// }
-// content[9].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[9]);
-// }
-// content[10].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[10]);
-// }
-// content[11].onmouseover = function() {
-//     listContent.style.display = "block";
-//     listContent.setAttribute("src", "./images/" + listImgArr[11]);
-// }
 for(var i = 0; i < content.length; i ++) {
     content[i].onmouseover = function() {
         listContent.style.display = "block";
