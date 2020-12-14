@@ -71,7 +71,7 @@ top.onclick = function() {
 }
 
 // 轮播图
-var imgArr = ["banner1.png", "banner2.jpg", "banner3.jpg", "banner4.jfif", "banner5.jfif"];
+var imgArr = ["banner1.png", "banner2.jpg", "banner3.jpg", "banner4.jpg", "banner5.jpg"];
 var i = 101;
 var timeId = setInterval(function() {
     var flag = 0;
@@ -92,7 +92,7 @@ var timeId = setInterval(function() {
 }, 2000)
 
 // 二级列表中的任务和美食，划上出现图片
-var listImgArr = ["zhalaohu.jfif", "yangchangzi.jfif", "huoguoji.jfif", "lvrouhuoshao.jfif", "qiezibing.jfif", "laodoufu.jfif", "yali.jfif", "bianque.jfif", "mazhiyuan.jfif", "jiyun.jfif", "zhangzhidong.jfif", "fengguozhang.jfif"];
+var listImgArr = ["zhalaohu.jpg", "yangchangzi.jpg", "huoguoji.jpg", "lvrouhuoshao.jpg", "qiezibing.jpg", "laodoufu.jpg", "yali.jpg", "bianque.jpg", "mazhiyuan.jpg", "jiyun.jpg", "zhangzhidong.jpg", "fengguozhang.jpg"];
 // for (var i = 0; i < content.length; i ++) {
 //     content[i].onmouseout = function() {
 //         listContent.style.display = "none";
